@@ -60,7 +60,7 @@ var Autobot = {
                 } catch (t) {}
                 Autobot.botPremWnd = void 0;
             }
-            Autobot.botWnd = Layout.dialogWindow.open("", Autobot.title + style="font-size: 11px;" + Autobot.version + , 500, 350, "", false);
+            Autobot.botWnd = Layout.dialogWindow.open("", Autobot.title + Autobot.version + , 500, 350, "", false);
             Autobot.botWnd.setHeight([350]);
             Autobot.botWnd.setPosition(["center", "center"]);
             var $jRate = Autobot.botWnd.getJQElement();
