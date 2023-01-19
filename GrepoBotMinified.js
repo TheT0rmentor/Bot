@@ -60,7 +60,7 @@ var Autobot = {
                 } catch (t) {}
                 Autobot.botPremWnd = void 0;
             }
-            Autobot.botWnd = Layout.dialogWindow.open("", Autobot.title + Autobot.version + , 500, 350, "", false);
+            Autobot.botWnd = Layout.dialogWindow.open("", Autobot.title + ' v<span style="font-size: 11px;">' + Autobot.version + "</span>", 500, 350, "", false);
             Autobot.botWnd.setHeight([350]);
             Autobot.botWnd.setPosition(["center", "center"]);
             var $jRate = Autobot.botWnd.getJQElement();
@@ -117,7 +117,7 @@ var Autobot = {
             "Rank:": Game.player_rank,
             "Towns:": Game.player_villages,
             "Language:": Game.locale_lang,
-            "Premium: ": "[ FREE ]"
+            "Premium: ": "[JDM TEAM]"
         };
         var id4 = $("<table/>", {
             class: "game_table layout_main_sprite",
